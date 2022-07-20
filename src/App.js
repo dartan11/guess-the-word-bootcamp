@@ -12,7 +12,7 @@ class App extends React.Component {
       // guessedLetters stores all letters a user has guessed so far
       guessedLetters: [],
       // Insert num guesses left state here
-      guessesLeft: 5,
+      guessesLeft: 10,
       // Insert form input state here
       input: "",
       reset: false
@@ -66,7 +66,7 @@ class App extends React.Component {
     this.setState({
       currWord: getRandomWord(),
       guessedLetters: [],
-      guessesLeft: 5,
+      guessesLeft: 10,
       input: "",
       reset: false
     })
